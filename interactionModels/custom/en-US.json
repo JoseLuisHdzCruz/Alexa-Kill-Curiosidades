@@ -1,0 +1,45 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel",
+            "goodbye",
+            "stop",
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "tell me a fun fact about robotics",
+            "tell me something interesting about robots",
+            "give me a fun fact about robotics",
+            "I want to know a curiosity about robots"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosities of robotics"
+    }
+  }
+}

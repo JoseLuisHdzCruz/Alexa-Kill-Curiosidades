@@ -1,0 +1,114 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "curiosities of robotics",
+          "examplePhrases": [
+            "Alexa, open curiosities of robotics",
+            "Alexa, start curiosities of robotics",
+            "Alexa, begin curiosities of robotics"
+          ],
+          "keywords": [
+            "Trivia",
+            "robotics",
+            "robots",
+            "facts",
+            "history"
+          ],
+          "name": "Curiosidades Robotica",
+          "description": "This skill provides interesting facts about robotics, or relevant events in the field.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Skill in launch, first version",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "Curiosidades sobre robótica",
+          "examplePhrases": [
+            "Alexa, Abre curiosidades robotica",
+            "Alexa, inicia curiosidades robotica",
+            "Alexa, empieza curiosidades robotica"
+          ],
+          "keywords": [
+            "Curiosidades",
+            "robotica",
+            "robots",
+            "datos",
+            "historia"
+          ],
+          "name": "Curiosidades Robotica",
+          "description": "Esta skill proporciona datos curiosos sobre robótica, o acontecimientos relevantes de la misma.",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "updatesDescription": "Skill en lanzamiento, primera version",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          },
+          {
+            "sourceLocale": "es-MX",
+            "language": "es"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Para comenzar a usar la Skill puedes comenzar diciendo:\\ndime un dato curioso sobre robótica... cuéntame algo interesante sobre robots... dame un dato curioso de robótica... quiero saber una curiosidad sobre robots.\"}",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:851725249696:function:e66038ec-58d4-4a22-9e96-6e0c3c3bdfca:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:851725249696:function:e66038ec-58d4-4a22-9e96-6e0c3c3bdfca:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:851725249696:function:e66038ec-58d4-4a22-9e96-6e0c3c3bdfca:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:851725249696:function:e66038ec-58d4-4a22-9e96-6e0c3c3bdfca:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://www.uthh.edu.mx/",
+          "privacyPolicyUrl": "https://www.uthh.edu.mx/"
+        },
+        "es-MX": {
+          "termsOfUseUrl": "https://www.uthh.edu.mx/",
+          "privacyPolicyUrl": "https://www.uthh.edu.mx/"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}

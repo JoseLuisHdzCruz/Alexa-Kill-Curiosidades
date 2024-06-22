@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar",
+            "adios",
+            "detente",
+            "cancela"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "dime un dato curioso sobre robótica",
+            "cuéntame algo interesante sobre robots",
+            "dame un dato curioso de robótica",
+            "quiero saber una curiosidad sobre robots"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosidades robotica"
+    }
+  }
+}
