@@ -29,8 +29,12 @@
                     'The first industrial robot was invented in 1954.',
                     'Robots can be used in healthcare for surgery.',
                     'Robotics combines engineering and computer science.',
-                    'Robots can be autonomous or semi-autonomous.'
+                    'Robots can be autonomous or semi-autonomous.',
+                    'Scientists develop robots inspired by insects like the RoboBee.',
+                    'Nanobots may perform precise medical tasks in the future.',
+                    'Emotional robots like Pepper interact with human emotions.'
                 ]
+                
             }
         },
         es: {
@@ -49,10 +53,14 @@
                 FACTS: [
                     'Los robots pueden ser utilizados en entornos peligrosos.',
                     'El primer robot industrial fue inventado en 1954.',
-                    'Los robots pueden ser utilizados en la salud para cirugías.',
+                    'Los robots pueden ser utilizados en el sector salud para cirugías.',
                     'La robótica combina ingeniería y ciencias de la computación.',
-                    'Los robots pueden ser autónomos o semi-autónomos.'
+                    'Los robots pueden ser autónomos o semi-autónomos.',
+                    'Científicos desarrollan robots inspirados en insectos como el RoboBee.',
+                    'Nanobots podrían realizar tareas médicas precisas en el futuro.',
+                    'Robots emocionales como Pepper interactúan con las emociones humanas.'
                 ]
+                
             }
         }
     };
